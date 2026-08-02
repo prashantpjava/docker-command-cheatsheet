@@ -1,0 +1,12 @@
+# create alias for any command 
+
+echo "alias d='docker'" >> ~./bashrc
+source ~./bashrc
+
+# get docker images
+
+docker images
+docker image list
+docker image ls
+
+#docker 
